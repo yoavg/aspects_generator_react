@@ -1,3 +1,4 @@
+import type { NextApiRequest, NextApiResponse } from 'next'
 
 export type AspectsDetails = {
   bullets: Array<string>;
