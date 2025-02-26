@@ -7,7 +7,9 @@ import Paper from "@mui/material/Paper";
 import Card from "@mui/material/Card";
 import Stack from "@mui/material/Stack";
 import { CardContent } from "@mui/material";
-import { AspectsDetails, get_aspects_data, get_corpus_id, PaperDetails } from "./apis";
+import { get_aspects_data, get_corpus_id } from "./apis";
+import { PaperDetails } from "@/pages/api/paper";
+import { AspectsDetails } from "@/pages/api/aspects_summary";
 // import "./globals.css";
 
 export default function Main() {
