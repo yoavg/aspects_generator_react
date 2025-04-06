@@ -5,7 +5,7 @@ export type AspectsDetails = {
   texts: Array<string>;
 }
 
-const ASPECTS_ENDPOINT = "https://aspect-generator.allen.ai/api/1/nora/use-tool";
+const ASPECTS_ENDPOINT = "https://aspect-generator.allen.ai/api/1/ext";
 
 export async function get_aspect_data(corpusId: number): Promise<AspectsDetails> {
   const response = await fetch(ASPECTS_ENDPOINT, {
